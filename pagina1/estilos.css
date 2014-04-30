@@ -1,0 +1,128 @@
+body
+{
+	background: url(../imagenes/fondo.png);
+	font-family: arial;
+	font-size: 16px;
+	/* text-align: center; */
+	
+
+}
+footer 
+{
+	background: rgb(255,0,0);
+	bottom: 0;
+	color:rgba(255,255,255,0.5);
+	/* margin: 70px auto 0; */
+	margin: 130em 0 0 0;
+	/* padding: 1em 0; */
+	position: fixed;
+	text-align: center;
+	width:100%;
+	
+
+}
+footer h3
+{
+	font-size: 14px;
+	font-weight: normal;
+
+}
+footer h3 strong
+{
+	display: block;
+}
+header
+{
+	background: url("imagenes/cabecera.jpg");
+	/* background-size:100px, 100px 100px;  */
+	color: white;
+	margin:0;
+	padding:1em 0 0.5em 0;
+	
+}
+/* img
+{
+	width:400px;
+} */
+
+
+
+
+nav
+{
+	 background: rgb(240,0,0);
+	 text-align: center;
+}
+li
+{
+	
+	display:inline-block;
+	list-style:none;
+	margin:1em 1em 1em 1em;
+}
+li a 
+{
+	background: rgba(255,255,0,0.5);
+	border-radius:5px;
+	font-size:1.5em;
+	padding:0.5em;
+	text-decoration:none;
+	color:white;
+}
+
+.menu
+{
+		height:100px; 
+		line-height:40px;
+		margin:0; 
+		padding:0; 
+		overflow-x:auto;
+		white-space:nowrap; 
+}
+
+
+.menu li 
+{
+	
+	position: relative;
+	float: center;
+	
+}
+.menu li a
+{
+	display: block;
+	padding: 10px;
+	position: relative;
+}
+
+.menu li a:hover 
+{
+	background-color:rgba(140,0,40,0.5) ;
+	transform:scale(1.1);
+	box-shadow: 4px 4px 6px rgba(134,240,249,0.5);
+
+}
+.menu li :hover
+{
+	/*box-shadow: 3px 5px 10px red;*/
+}
+
+/* ul.submenu
+{
+	position: relative;
+	background-color: rgba(255,0,0,0.5);
+	padding-bottom: 10px;
+	
+	display: none;
+} */
+#figura,#post
+{
+	display: inline-block;
+	vertical-align: top;
+}
+	
+
+
+
+
+

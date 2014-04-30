@@ -1,0 +1,67 @@
+body
+{
+	/* background: rgba(250,54,5,0.7); */
+	background:url(../imagenes/fondo3.jpg)no-repeat center fixed;
+	background-size: cover;
+	background-attachment:fixed;
+	color:white;
+	font-size: 16px;
+	font-family: arial;
+}
+form
+{
+	padding: 0.8em;
+	display:none;
+}
+header
+{
+	background: #444;
+	color: white;
+	padding: 0.5em;
+}
+header .imagen
+{
+	width: 90px;
+	border-right: 1px solid red;
+	float: left;
+
+}
+header .imagen img
+{
+	width: 80px;
+}
+nav
+{
+	background:rgba(0,233,233,0.6); 
+}
+nav li
+{
+	list-style: none;
+	display: inline-block;
+}
+nav li a
+{
+	color: white;
+	display: block;
+	margin: 0 0.5em;
+	padding: 0 0.2em;
+	text-decoration: none;
+}
+.menu
+{
+	height: 50px;
+	margin: 0;
+	line-height:40px;
+	overflow-x:auto;
+	white-space: nowrap;
+
+}
+.titular
+{
+	margin: 0 60px 0 100px;
+}
+.titulo
+{
+	font-size: 18px;
+	font-weight: normal;
+}
